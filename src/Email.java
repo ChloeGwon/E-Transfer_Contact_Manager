@@ -11,12 +11,13 @@ public class Email extends Customer {
 		super(n);
 		email = e;
 	}
-
+	
 	public String getEmail() {
 		return email;
 	}
 
 	public void setEmail(String email) throws InvalidEmailException {
+		//Throw an exception if email does not have at sign or dot symbol
 		boolean atSign = false;
 		for (int i=0; i<email.length(); i++) {
 			if (email.charAt(i) == '@') {
@@ -25,7 +26,15 @@ public class Email extends Customer {
 			}
 		}
 		
-		if (atSign)
+		boolean dotSymbol = false;
+		for (int i=0; i<email.length(); i++) {
+			if (email.charAt(i) == '.') {
+				dotSymbol = true;
+				break;
+			}
+		}
+		
+		if (atSign && dotSymbol)
 			this.email = email;
 		else
 			throw new InvalidEmailException();

@@ -36,7 +36,7 @@ public class PhoneNumber extends Customer {
 	
 	@Override
 	public String toString() {
-		phoneNumber = phoneNumber.substring(0, 3) + "-" + phoneNumber.substring(3, 6) + "-" + phoneNumber.substring(6, 10);
+		phoneNumber = phoneNumber.substring(0, 3) + "-" + phoneNumber.substring(3, 6) + "-" + phoneNumber.substring(6);
 		super.str = super.toString() + "\n Phone number: " + phoneNumber;
 		return str;
 	}

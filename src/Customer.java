@@ -16,10 +16,10 @@ public class Customer {
 		return name;
 	}
 	public void setName(String name) throws InvalidNameException {
-		//Throw an exception if name has digits
+		//Throw an exception if name has digits or special characters
 		boolean digit = false;
 		for (int i=0; i<name.length(); i++) {
-			if (Character.isDigit(name.charAt(i))) {
+			if (Character.isDigit(name.charAt(i)) || !Character.isLetter(name.charAt(i))) {
 				digit = true;
 				break;
 			}
@@ -32,10 +32,7 @@ public class Customer {
 	}
 	
 	public String toString() {
-		//Make first letter upper case and the others lower case
-//		name.toUpperCase();
-		
-//		String name = Character.toUpperCase(name.charAt(0)) + name.substring(1);
+		//Make letters to upper letter
 		return name.toUpperCase();
 	}
 }
