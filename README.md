@@ -23,5 +23,5 @@ You can add a new contact with email or phone number and remove a contact from t
 * 
 ## Tests ##
 ```
-![image](https://user-images.githubusercontent.com/96569864/150074779-7294894a-b8ca-4e86-80c8-b3c0af696427.png)
+![E-Transfer](https://user-images.githubusercontent.com/96569864/150075382-d7231ea5-1d08-40a9-8882-ad64968b7ad0.png)
 ```
