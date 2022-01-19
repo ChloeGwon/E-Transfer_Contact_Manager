@@ -20,6 +20,6 @@ You can add a new contact with email or phone number and remove a contact from t
 * The memory is volatile.
 * Names are saved in all capital letters.
 * When it prompts a character to proceed, it is not case sensitive.
-* 
+
 ## Tests ##
 ![E-Transfer](https://user-images.githubusercontent.com/96569864/150075382-d7231ea5-1d08-40a9-8882-ad64968b7ad0.png)
