@@ -3,11 +3,11 @@
 * You can add a new contact with email or phone number and remove a contact from the list.
 
 ## How to Run the Project ##
-* Download Visual Studio Code.
-* In Visual Studio Code, click on Extensions and download Debugger for Java.
-* Click on View, Command Palette, search Git: Clone, and paste https://github.com/ChloeGwon96/E-Transfer
-* Under src folder, click on CustomerDatabase.java to open.
-* Click on Run, and Run Without Debugging.
+* Requirement: Java in the system.
+* Click on code, download ZIP.
+* On a terminal, move to the src directory.
+* Enter 'javac ./*.java' to compile.
+* Enter 'java CustomerDatabase' to run.
 
 ## Features ##
 * It gives errors
@@ -18,7 +18,7 @@
     * when the phone number you have entered are not numeric values,
     * when you delete and the id you have entered does not exist or is not numeric values.
 * The memory is volatile.
-* Names are saved in all capital letters.
+* Names are saved as capital letters.
 * When it prompts a character to proceed, it is not case sensitive.
 
 ## Tests ##
